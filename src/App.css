@@ -1,0 +1,59 @@
+body {
+  background: #aaa;
+}
+pre {
+  font-size: 24px;
+  background: #777777;
+  box-shadow: 0.1em 0.1em 0 black inset;
+  padding: 0.1em;
+}
+.red {
+  --color: #ff7777;
+}
+.purple {
+  --color: #ff77ff;
+}
+.blue {
+  --color: #7777ff;
+}
+.cyan {
+  --color: #77ffff;
+}
+.green {
+  --color: #77ff77;
+}
+.yellow {
+  --color: #ffff77;
+}
+
+.indent {
+  background: var(--color);
+  box-shadow: 0.1em 0.1em 0 black;
+  margin: -0.2em 0.1em;
+  padding: 0.4em 0.1em;
+  display: inline-block;
+}
+.element {
+  border-radius: 0.3em;
+  background: var(--color);
+  margin-left: -0.2em;
+  padding-left: 0.2em;
+  outline: 0.1em outset var(--color);
+  outline-offset: -0.1em;
+}
+.line {
+  border-radius: 0.3em;
+  display: inline-block;
+  background: var(--color);
+  box-shadow: 0.1em 0.1em 0 black;
+  margin: 0.1em;
+  padding: 0.1em;
+  letter-spacing: 0.2em;
+}
+.field {
+  border-radius: 0.3em;
+  background: white;
+  /*box-shadow: 0.1em 0.1em 0 black inset;*/
+  margin-left: -0.2em;
+  padding-left: 0.2em;
+}

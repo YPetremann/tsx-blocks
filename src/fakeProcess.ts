@@ -1,0 +1,2 @@
+console.clear()
+//globalThis.process = {}
